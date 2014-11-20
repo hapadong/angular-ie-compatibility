@@ -1,0 +1,33 @@
+<div>
+    <h4 class="subtitle">Typeahead</h4>
+    <div>
+        Please refer to <a href="http://angular-ui.github.io/bootstrap/">Angular UI Bootstrap</a> for how to use it.
+    </div>
+    <h4 class="subtitle">Demo with chrome</h4>
+    <div data-ng-controller="typeaheadController">
+        <div class="container">
+            Please select a state: <input type="text" ng-model="selected"
+                    typeahead="state for state in states | filter:$viewValue | limitTo:8" class="form-control" style="width:200px">
+        </div>
+    </div>
+    <h4 class="subtitle">problem with IE8</h4>
+    <div>
+        When using IE8, with the same source code, you will get the following:
+        <img src="../img/ie8-typeahead.jpg">
+        <p>
+        The dropdown box is missing. It seems the typeahead is not returning any filtered items after you put
+            something in the textbox.
+    </div>
+    <h4 class="subtitle">Solution</h4>
+    <div>
+        IE8 does not support a string "trim" function. Put the following code in your script, and it will work out.
+    </div>
+
+    <code>
+        if (!('trim' in String.prototype)) {        <br>
+            String.prototype.trim= function() {         <br>
+                return this.replace(/^\s+/, '').replace(/\s+$/, ''); <br>
+            };                                                           <br>
+        }
+    </code>
+</div>
