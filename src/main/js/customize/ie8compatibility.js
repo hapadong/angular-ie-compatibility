@@ -28,6 +28,16 @@ iec.controller("iecCtrl", function($scope, $location){
             name: 'AngularJS UI Bootstrap modal window size',
             url: 'views/issues/modal.html',
             description: 'modal size'
+        },
+        {
+            name: 'Accordion header: font size',
+            url: 'views/issues/accordion.html',
+            description: 'accordion, font size'
+        },
+        {
+            name: 'Auto-complete: performance status',
+            url: '',
+            description: ''
         }
     ];
 
