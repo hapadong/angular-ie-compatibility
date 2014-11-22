@@ -1,0 +1,46 @@
+<div>
+    <h4 class="subtitle">Angular UI bootstrap modal size</h4>
+    Creating custom modals has an option named "size", which defines the size of modal window. Allowed values include
+    'sm' (small) or 'lg' (large). Please click the below buttons for a pop up flavor:
+
+    <div ng-controller="ModalDemoCtrl">
+        <script type="text/ng-template" id="myModalContent.html">
+            <div class="modal-header">
+                <h3 class="modal-title">I'm a modal!</h3>
+            </div>
+            <div class="modal-body">
+                Modal body
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" ng-click="ok()">OK</button>
+                <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+            </div>
+        </script>
+
+        <button class="btn btn-default" ng-click="open('sm')">Small modal</button>
+        <button class="btn btn-default" ng-click="open('lg')">Large modal</button>
+    </div>
+
+    <h4 class="subtitle">Symptoms in IE8</h4>
+    <ul>
+        <li type="square">Press "Esc" won't dismiss the modal</li>
+        <li type="square">Modal size is across the whole window, no matter which one you choose</li>
+    </ul>
+
+    <div class="row">
+        <div class="col-xs-4">
+            <label>small modal in chrome</label>
+            <img style="width: 100%;" src="img/chrome-modal-small.jpg" />
+        </div>
+        <div class="col-xs-4">
+            <label>big modal in chrome</label>
+            <img style="width: 100%;" src="img/chrome-modal-big.jpg" />
+        </div>
+        <div class="col-xs-4">
+            <label>modal in IE 8: <span style="color:red">always spans whole width!</span></label>
+            <img style="width: 100%;" src="img/ie8-modal.jpg" />
+        </div>
+    </div>
+
+    <h4 class="subtitle">Solution</h4>
+</div>
