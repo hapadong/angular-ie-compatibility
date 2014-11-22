@@ -20,12 +20,17 @@ iec.controller("iecCtrl", function($scope, $location){
             description: 'introduction'
         },
         {
+            name: 'Directive as element VS attribute',
+            url: 'views/issues/directive.html',
+            description: 'directive as element or attribute'
+        },
+        {
             name: 'AngularJS UI Bootstrap typeahead',
             url: 'views/issues/typeahead.html',
             description: 'typeahead issue'
         },
         {
-            name: 'AngularJS UI Bootstrap modal window size',
+            name: 'Angular UI Bootstrap modal window size',
             url: 'views/issues/modal.html',
             description: 'modal size'
         },
@@ -36,6 +41,11 @@ iec.controller("iecCtrl", function($scope, $location){
         },
         {
             name: 'Auto-complete: performance status',
+            url: '',
+            description: ''
+        },
+        {
+            name: 'Carousel',
             url: '',
             description: ''
         }
