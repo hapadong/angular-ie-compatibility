@@ -15,7 +15,7 @@ iec.config(function($routeProvider){
 iec.controller("iecCtrl", function($scope, $location){
     $scope.templates = [
         {
-            name: 'introduction',
+            name: 'Introduction',
             url: 'views/introduction.html',
             description: 'introduction'
         },
@@ -41,19 +41,20 @@ iec.controller("iecCtrl", function($scope, $location){
         },
         {
             name: 'Auto-complete: performance status',
-            url: '',
-            description: ''
-        },
-        {
-            name: 'Carousel',
-            url: '',
-            description: ''
+            url: 'views/issues/perform.html',
+            description: 'tmp'
         }
     ];
 
     $scope.template = $scope.templates[0];
     $scope.activeTemplate = function(template){
         $scope.template = template;
+    }
+    $scope.isActiveMenu = function(template) {
+        if (template == $scope.template){
+            return true;
+        }
+        return false;
     }
 
     $scope.isActive = function(link) {

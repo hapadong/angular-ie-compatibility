@@ -2,28 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f6b670c-7ba8-4816-8f70-352d7d8056cc" name="Default" comment="issues: typeahead, modal">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/js/customize/respond.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/issues/directive.html" afterPath="$PROJECT_DIR$/src/main/webapp/views/issues/directive.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/introduction.html" afterPath="$PROJECT_DIR$/src/main/webapp/views/introduction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/issues/modal.html" afterPath="$PROJECT_DIR$/src/main/webapp/views/issues/modal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/issues/accordion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/issues/perform.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/AngularJSIE8_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/AngularJSIE8_war.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/AngularJSIE8_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/AngularJSIE8_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/home.html" afterPath="$PROJECT_DIR$/src/main/webapp/views/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/customize/ie8compatibility.js" afterPath="$PROJECT_DIR$/src/main/js/customize/ie8compatibility.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/css/style.css" afterPath="$PROJECT_DIR$/src/main/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/issues/typeahead.html" afterPath="$PROJECT_DIR$/src/main/webapp/views/issues/typeahead.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/vendor/ui-bootstrap-tpls-0.11.2-overriden.js" afterPath="$PROJECT_DIR$/src/main/js/vendor/ui-bootstrap-tpls-0.11.2-overriden.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AngularJSIE8.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8f6b670c-7ba8-4816-8f70-352d7d8056cc" time="1416724874856" ignored="false" />
-    <file path="/ie8compatibility.js" changelist="8f6b670c-7ba8-4816-8f70-352d7d8056cc" time="1416457994270" ignored="false" />
+    <file path="/Dummy.txt" changelist="8f6b670c-7ba8-4816-8f70-352d7d8056cc" time="1416756104840" ignored="false" />
+    <file path="/ie8compatibility.js" changelist="8f6b670c-7ba8-4816-8f70-352d7d8056cc" time="1416757515112" ignored="false" />
     <file path="/directive.html" changelist="8f6b670c-7ba8-4816-8f70-352d7d8056cc" time="1416633425658" ignored="false" />
     <file path="/index.html" changelist="8f6b670c-7ba8-4816-8f70-352d7d8056cc" time="1416720288366" ignored="false" />
     <file path="/modal.html" changelist="8f6b670c-7ba8-4816-8f70-352d7d8056cc" time="1416721044851" ignored="false" />
     <file path="/issuesController.js" changelist="8f6b670c-7ba8-4816-8f70-352d7d8056cc" time="1416635377580" ignored="false" />
     <file path="/typeahead.html" changelist="8f6b670c-7ba8-4816-8f70-352d7d8056cc" time="1416723703446" ignored="false" />
-    <file path="/style.css" changelist="8f6b670c-7ba8-4816-8f70-352d7d8056cc" time="1416711129565" ignored="false" />
+    <file path="/style.css" changelist="8f6b670c-7ba8-4816-8f70-352d7d8056cc" time="1416757945962" ignored="false" />
     <file path="/introduction.html" changelist="8f6b670c-7ba8-4816-8f70-352d7d8056cc" time="1416723686430" ignored="false" />
     <file path="/a.dummy" changelist="8f6b670c-7ba8-4816-8f70-352d7d8056cc" time="1416719448993" ignored="false" />
     <file path="/ui-bootstrap-tpls-0.11.2.js" changelist="8f6b670c-7ba8-4816-8f70-352d7d8056cc" time="1416717658321" ignored="false" />
     <file path="/fragment.java" changelist="8f6b670c-7ba8-4816-8f70-352d7d8056cc" time="1416718472316" ignored="false" />
+    <file path="/pom.xml" changelist="8f6b670c-7ba8-4816-8f70-352d7d8056cc" time="1416756597131" ignored="false" />
+    <file path="/home.html" changelist="8f6b670c-7ba8-4816-8f70-352d7d8056cc" time="1416757376395" ignored="false" />
+    <file path="/accordion.html" changelist="8f6b670c-7ba8-4816-8f70-352d7d8056cc" time="1416758320731" ignored="false" />
+    <file path="/perform.html" changelist="8f6b670c-7ba8-4816-8f70-352d7d8056cc" time="1416758397794" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,48 +91,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ie8compatibility.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ie8compatibility.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/js/customize/ie8compatibility.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="55" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="introduction.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/introduction.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="23" selection-start="1344" selection-end="1344" vertical-scroll-proportion="-5.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="typeahead.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/issues/typeahead.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="30" selection-start="4825" selection-end="4825" vertical-scroll-proportion="-14.615385">
-              <folding>
-                <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="directive.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/issues/directive.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="16" selection-start="1075" selection-end="1075" vertical-scroll-proportion="-15.038462">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ui-bootstrap-tpls-0.11.2.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/js/vendor/ui-bootstrap-tpls-0.11.2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="44" column="29" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.5536105">
               <folding />
             </state>
           </provider>
@@ -150,17 +119,63 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/js/customize/issuesController.js" />
-        <option value="$PROJECT_DIR$/src/main/js/customize/ie8compatibility.js" />
         <option value="$PROJECT_DIR$/src/main/js/customize/respond.js" />
-        <option value="$PROJECT_DIR$/src/main/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/issues/directive.html" />
         <option value="$PROJECT_DIR$/src/main/js/vendor/ui-bootstrap-tpls-0.11.2.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/issues/modal.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/introduction.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/issues/typeahead.html" />
+        <option value="$PROJECT_DIR$/src/main/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/home.html" />
+        <option value="$PROJECT_DIR$/src/main/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/issues/accordion.html" />
+        <option value="$PROJECT_DIR$/src/main/js/customize/ie8compatibility.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/issues/perform.html" />
       </list>
     </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="AngularJSIE8" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="AngularJSIE8" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -196,7 +211,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -248,32 +263,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AngularJSIE8" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-ie-compatibility" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -354,10 +343,6 @@
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -382,28 +367,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="customize" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AngularJSIE8" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-ie-compatibility" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -449,7 +412,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -457,10 +420,10 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="160" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="GOOGLE_APP_ENGINE_ACCOUNT_EMAIL" value="dong.wangd5@gmail.com" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="154" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="154" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="162" />
@@ -476,8 +439,8 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
@@ -485,9 +448,11 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dwang7\Documents\GitHub\angular-ie-compatibility\src\main\css" />
       <recent name="C:\Users\dwang7\Documents\GitHub\angular-ie-compatibility\src\main\js\vendor" />
       <recent name="C:\Users\dwang7\Documents\GitHub\angular-ie-compatibility\src\main\img" />
       <recent name="C:\Users\dwang7\Documents\GitHub\angular-ie-compatibility\src\main\js\customize" />
@@ -496,7 +461,7 @@
   <component name="RunManager" selected="Google AppEngine Dev Server.Google App Engine">
     <configuration default="false" name="typeahead.html" type="JavascriptDebugSession" factoryName="Local" singleton="true" temporary="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/webapp/views/issues/typeahead.html" />
       </JSDebuggerConfigurationSettings>
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
@@ -507,6 +472,28 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
       <method />
     </configuration>
     <configuration default="true" type="GoogleAppEngineDevServer" factoryName="Local">
@@ -542,13 +529,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -568,6 +548,13 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
@@ -689,13 +676,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11282051" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -704,19 +690,20 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4854701" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14017095" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.82564104" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.51452994" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1931624" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.82564104" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17435898" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -800,53 +787,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/appengine-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/customize/issuesController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="44" selection-start="975" selection-end="975" vertical-scroll-proportion="0.39177102">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/customize/respond.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="352" column="9" selection-start="13211" selection-end="13211" vertical-scroll-proportion="0.96153843">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="34" selection-start="355" selection-end="355" vertical-scroll-proportion="0.20930232">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5604" column="27" selection-start="121998" selection-end="121998" vertical-scroll-proportion="0.23416507">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/js/vendor/angular.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9797" column="55" selection-start="335945" selection-end="335951" vertical-scroll-proportion="0.33186814">
-          <folding />
-        </state>
+        <state line="9797" column="55" selection-start="335945" selection-end="335951" vertical-scroll-proportion="0.33186814" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/js/vendor/ui-bootstrap-tpls-0.11.2-overriden.js">
@@ -854,29 +797,39 @@
         <state line="3736" column="85" selection-start="118754" selection-end="118831" vertical-scroll-proportion="0.3974359">
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1416719481206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1416719481206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1416719481206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1416719481206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1416719481206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1416719481206" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1416719481206" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/js/customize/iefunc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="84" selection-start="660" selection-end="660" vertical-scroll-proportion="-9.153846">
+        <state line="22" column="29" selection-start="679" selection-end="679" vertical-scroll-proportion="0.6690519" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/vendor/ui-bootstrap-tpls-0.11.2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/issues/directive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="16" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.8669623">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/issues/typeahead.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="52" selection-start="1235" selection-end="1235" vertical-scroll-proportion="1.7634854">
           <folding>
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/issues/modal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="71" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.33020636">
+        <state line="40" column="16" selection-start="1726" selection-end="1729" vertical-scroll-proportion="1.8740157">
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -886,46 +839,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/customize/iefunc.js">
+    <entry file="file://$PROJECT_DIR$/src/main/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="29" selection-start="679" selection-end="679" vertical-scroll-proportion="0.6690519">
+        <state line="270" column="99" selection-start="4294" selection-end="4294" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="50" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.5743243">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/introduction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="23" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.85406697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="32" selection-start="721" selection-end="721" vertical-scroll-proportion="0.9256017">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="46" selection-start="325" selection-end="325" vertical-scroll-proportion="0.31554523">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="84" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.9186603">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/issues/perform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="21" selection-start="27" selection-end="27" vertical-scroll-proportion="0.039443154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/issues/accordion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="21" selection-start="27" selection-end="27" vertical-scroll-proportion="0.039443154">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/js/customize/ie8compatibility.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="55" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/issues/typeahead.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="30" selection-start="4825" selection-end="4825" vertical-scroll-proportion="-14.615385">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/introduction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="23" selection-start="1344" selection-end="1344" vertical-scroll-proportion="-5.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/issues/directive.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="16" selection-start="1075" selection-end="1075" vertical-scroll-proportion="-15.038462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/js/vendor/ui-bootstrap-tpls-0.11.2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="44" column="29" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.5536105">
           <folding />
         </state>
       </provider>

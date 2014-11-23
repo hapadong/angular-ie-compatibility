@@ -25,6 +25,7 @@
                                 <include>js/*.*</include>
                                 <include>css/*.*</include>
                                 <include>img/*.*</include>
+                                <include>fonts/*.*</include>
                             </includes>
                         </resource>
                     </webResources>
@@ -32,7 +33,7 @@
             </plugin>
 
         </plugins>
-        <finalName>decspt</finalName>
+        <finalName>angularjsie8</finalName>
     	</build>
     
 </project>

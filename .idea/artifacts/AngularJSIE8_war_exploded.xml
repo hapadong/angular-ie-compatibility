@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="AngularJSIE8:war exploded">
-    <output-path>$PROJECT_DIR$/target/decspt</output-path>
+    <output-path>$PROJECT_DIR$/target/angularjsie8</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="AngularJSIE8/web/Web" />
       <element id="directory" name="WEB-INF">

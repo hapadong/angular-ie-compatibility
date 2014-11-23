@@ -23,7 +23,7 @@ code{
 }
 
 .subtitle{
-    color: blue !important;
+    color: darkblue !important;
     background-color: #f5f5f5;
     padding: 10px;
 }
@@ -36,5 +36,9 @@ code{
     z-index: 200;
     font-size: 12px;
     background-color: #003468;
+}
+
+.activeMenu{
+    background-color: lightgray;
 }
 
