@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col-xs-2 verticalLine">
+        <ul class="nav" ng-repeat="t in templates">
+            <li><a href="" ng-click="activeTemplate(t)">{{t.name}}</a></li>
+        </ul>
+    </div>
+
+    <div class="col-xs-10">
+        <div ng-include="template.url"></div> {{defaultUrl}}
+    </div>
+</div>

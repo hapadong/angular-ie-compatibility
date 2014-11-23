@@ -1,0 +1,33 @@
+<div>
+    <h4 class="subtitle">Directive as element VS attribute</h4>
+    <div>
+        When you use Angular directive, for example, ng-view, you can either use it as an element:
+        <code>
+            &lt;ng-view&gt;&lt;/ng-view&gt;
+        </code>
+        or you can use it as attribute:
+        <code>
+            &lt;div ng-view&gt;&lt;/div&gt;
+        </code>
+        Both are supported well in modern browsers; however, IE8 won't recognize custom elements. If you need to use
+        the directive as an element instead of an attribute, you'll have to define the element so IE won't complain.
+        Since this is an issue only for older version of IE you need to load it conditionally. For each tag which
+        does not have namespace and which is not defined in HTML you need to pre-declare it to make IE happy.
+    </div>
+
+    <code>
+        &lt;!--[if lte IE 8]&gt; <br>
+        &lt;script type="text/javascript"&gt; <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;document.createElement('ng-view'); <br>
+        &lt;/script&gt;<br>
+        ...<br>
+        &lt;ng-view&gt;&lt;/ng-view&gt;<br>
+        &lt;![endif]--&gt;
+    </code>
+
+    <h4 class="subtitle">Note</h4>
+    This is the most common IE8 incompatibility issue that I've ever met. For most of the time, I need to check if I
+    have used any custom elements of directives. A good practice is, always use directive as attribute when writing
+    code. This will save some of your headache troubleshooting for accidentally used custom elements.
+
+</div>

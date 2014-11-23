@@ -1,0 +1,33 @@
+<div>
+    <h4 class="subtitle">Why IE8 compatibility?</h4>
+    <div>
+        From version 1.3 on, AngularJS is dropping support for IE8. AngularJS 1.2 will continue to support IE8, but
+        the core team does not plan to spend time addressing issues specific to IE8 or earlier. However, IE8 is still
+        used on some occasions. In my case, IE8 is the major browser used by my clients, and it won't be changed for
+        additional one year or two. It brought me great headache when I try to resolve IE8 compatibility issues one
+        by one. So I thought it would be helpful to contribute what I've learned as I go.
+    </div>
+    <br>
+    <h4 class="subtitle">What should I start with?</h4>
+    <div>
+        It is worth spending a little while on the official AngularJs site:
+        <a href="https://docs.angularjs.org/guide/ie" target="_blank">https://docs.angularjs.org/guide/ie</a>.
+    </div>
+    <br>
+    <h4 class="subtitle">Recommendation</h4>
+    <div>
+        IE8 does not support a key set of functions that are heavily used by AngularJS, AngularJS UI for Bootstrap,
+        etc. As a result, web page error will be poped up whenever your code used something that replies on those
+        functions. You don't have to re-invent the wheels since some smart head has already compiled those functions
+        and made them public available. I highly recommend you download those pieces of code and conditionally refer
+        those in your code. Please check the code out at: <a
+            href="http://stackoverflow.com/questions/2790001/fixing-javascript-array-functions-in-internet-explorer-indexof-foreach-etc" target="_blank">Stack Overflow</a>
+
+    </div>
+
+    <h4 class="subtitle">Testing environment</h4>
+    <div>
+        I used IE8, AngularJS 1.2.6, and Angular ui-bootstrap-tpls-0.11.2 specifically for all tests. I don't test with
+        IE8above;the solutions to IE8 may or may not fit other IE versions.
+    </div>
+</div>
