@@ -42,5 +42,54 @@
         </div>
     </div>
 
-    <h4 class="subtitle">Solution</h4>
+    <h4 class="subtitle">Solution 1: ESC does not work</h4>
+    The root cause of this problem is exactly the same as another issue archived: "AngularJS UI Bootstrap typeahead",
+    where the keyboard events are not responsive due to IE8's inability to recoginize the syntax event.which. Change
+    all "evt.which" to "evt.keyCode" solved this problem too. Please refer to "AngularJS UI Bootstrap typeahead" for
+    more details.
+
+    <h4 class="subtitle">Solution 2: modal size</h4>
+    If you look at bootstrap.css, you will find code like:
+    <code>
+        @media (min-width: 768px) { <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;.modal-dialog {             <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 600px;               <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;margin: 30px auto;          <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;}                           <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;.modal-content {            <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;box-shadow: 0 5px 15px rgba(0, 0, 0, .5);        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;}                                                <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;.modal-sm {                                      <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 300px;                                    <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;}                                                <br>
+        }                                                <br>
+        @media (min-width: 992px) {                      <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;.modal-lg {                                      <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 900px;                                    <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;}                                                <br>
+        }
+    </code>
+
+    <div>
+        IE8 (actually all IE versions before IE9) does not support media queries. You can download <a
+            href="https://github.com/scottjehl/Respond/blob/master/src/respond.js">Respond.js</a>, which enables only
+        min-width and max-width media queries. Conditionally reference it in your html file.
+        <code>
+            &lt;!--[if lte IE 8]&gt; <br>
+            &lt;script type="text/javascript" src="path/to/Respond.js"&gt;&lt;/script&gt;<br>
+            &lt;![endif]--&gt;
+        </code>
+    </div>
+    <h4 class="subtitle">References</h4>
+    <div class="reference">
+        <ul>
+            <li type="square">
+                <a href="http://stackoverflow.com/questions/5769493/ie8-support-for-css-media-query">Stack Overflow</a>
+            </li>
+            <li type="square">
+                Source: <a href="https://github.com/scottjehl/Respond/blob/master/src/respond.js">Respond.js</a>
+            </li>
+        </ul>
+    </div>
 </div>

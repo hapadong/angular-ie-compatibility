@@ -11,16 +11,29 @@
         </div>
     </div>
     <h4 class="subtitle">problem with IE8</h4>
+    <ul>
+        <li type="square">Drop down is not available:<br>
+            <img src="../img/ie8-typeahead-no-dropdown.jpg">
+            <div>
+                The dropdown box is missing. It seems the typeahead is not returning any filtered items after you put
+                something in the textbox.
+            </div>
+            <br>
+        </li>
+        <li type="square">Press arrow won't be able to choose from dropdown; click enter key won't be able to
+            select</li>
+        <li type="square">If click arrow up or down to choose item, IE brower complains webpage error
+            <img src="../img/ie8-typeahead-error.jpg">
+            <br>
+        </li>
+
+
+    </ul>
+
+    <h4 class="subtitle">Solution 1: dropdown</h4>
     <div>
-        When using IE8, with the same source code, you will get the following:
-        <img src="../img/ie8-typeahead.jpg">
-        <p>
-        The dropdown box is missing. It seems the typeahead is not returning any filtered items after you put
-            something in the textbox.
-    </div>
-    <h4 class="subtitle">Solution</h4>
-    <div>
-        IE8 does not support a string "trim" function. Put the following code in your script, and it will work out.
+        IE8 does not support a string "trim" function. Put the following code in your script, and the dropdown will
+        workout. Conditionally include this piece of code for IE8.
     </div>
 
     <code>
@@ -30,4 +43,52 @@
             &nbsp;&nbsp;&nbsp;&nbsp;}  <br>
         }
     </code>
+
+    <h4 class="subtitle">Solution 2: key code</h4>
+    The root cause of this one is the following code in ui-bootstrap-tpls-0.11.2-overriden.js:
+    <code>
+        ...                                                                             <br>
+        if (evt.which === 40) <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;scope.activeIdx = (scope.activeIdx + 1) % scope.matches.length;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;scope.$digest();                                                   <br>
+        } else if (evt.keyCode === 38) {<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;scope.activeIdx = (scope.activeIdx ? scope.activeIdx : scope.matches.length) - 1;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;scope.$digest();                                                                     <br>
+        ...
+    </code>
+    The above blocks defines what happens after keyboard events, arrows up(38) / down(40), enter(13) and tab(9),
+    esc(27), etc. However, IE8 does not support event.which, such that those events are null in IE 8 browser. To
+    solve the problem, replace all event ".which" to ".keyCode", and everything will be fine. <br>
+
+    <span style="font-size: 1.2em; color: #4cae4c">Note</span>
+
+    The best practice is to rename the original ui-bootstrap-tpls-0.11.2-overriden.js to something like
+    ui-bootstrap-tpls-0.11.2-overriden.js, and reference the new one.
+
+    <h4 class="subtitle">Solution 3: web error when clicking on arrow up or down</h4>
+    Now if you have accomplished solution 2, the keyboard events can be recoginized by IE8. But when you click them,
+    although IE8 can recoginize what you have pressed, something else is blocking the normal function. This is
+    because IE8 does not have indexOf function. Put this piece of code in your javascript file:
+    <code>
+        if (!('indexOf' in Array.prototype)) {<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;Array.prototype.indexOf= function(find, i) { <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (i===undefined) i= 0;    <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (i<0) i+= this.length;    <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (i<0) i= 0;              <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (var n= this.length; i&lt;n; i++)  <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (i in this && this[i]===find)   <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return i;          <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return -1;         <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;};                 <br>
+        }
+    </code>
+
+    <h4 class="subtitle">Reference</h4>
+    <ul>
+        <li type="square">
+            Stack Overflow: <a
+                href="http://stackoverflow.com/questions/10315260/internet-explorer-showing-e-which-as-undefined"
+                target="_blank">Internet Explorer showing e.which as undefined</a>
+        </li>
+    </ul>
 </div>

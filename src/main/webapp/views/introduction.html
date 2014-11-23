@@ -14,9 +14,20 @@
         <a href="https://docs.angularjs.org/guide/ie" target="_blank">https://docs.angularjs.org/guide/ie</a>.
     </div>
     <br>
+    <h4 class="subtitle">Recommendation</h4>
+    <div>
+        IE8 does not support a key set of functions that are heavily used by AngularJS, AngularJS UI for Bootstrap,
+        etc. As a result, web page error will be poped up whenever your code used something that replies on those
+        functions. You don't have to re-invent the wheels since some smart head has already compiled those functions
+        and made them public available. I highly recommend you download those pieces of code and conditionally refer
+        those in your code. Please check the code out at: <a
+            href="http://stackoverflow.com/questions/2790001/fixing-javascript-array-functions-in-internet-explorer-indexof-foreach-etc" target="_blank">Stack Overflow</a>
+
+    </div>
+
     <h4 class="subtitle">Testing environment</h4>
     <div>
-        I used IE8 and AngularJS 1.2.6 specifically for all tests. I don't test with IE8 above; the solutions to IE8
-        may or may not fit other IE versions.
+        I used IE8, AngularJS 1.2.6, and Angular ui-bootstrap-tpls-0.11.2 specifically for all tests. I don't test with
+        IE8above;the solutions to IE8 may or may not fit other IE versions.
     </div>
 </div>
