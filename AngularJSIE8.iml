@@ -12,11 +12,6 @@
         </webroots>
         <sourceRoots />
       </configuration>
-      <facet type="google-app-engine" name="Google App Engine">
-        <configuration>
-          <sdk-home-path>C:/Program Files/Google/Cloud SDK/google-cloud-sdk/platform/appengine-java-sdk</sdk-home-path>
-        </configuration>
-      </facet>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="false">
